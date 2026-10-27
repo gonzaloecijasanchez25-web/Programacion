@@ -22,7 +22,7 @@ def crear_articulo(articulos):
 
     articulos.append(producto)
     return f"Artículo '{nombre}' creado con éxito."
-
+# 
 def listar_articulos(articulos):
     if len(articulos) == 0:
         return "No hay artículos registrados."
